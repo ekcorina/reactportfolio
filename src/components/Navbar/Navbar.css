@@ -1,0 +1,76 @@
+*{
+  background-color: #E7DADD;
+}
+
+
+.navBar {
+  height: 100%; 
+  width: 0;
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+
+.navLinks a {
+  padding: 35px 15px 0px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  width: 15%;
+  height: 20vh;
+  background-color: #F5A6E6;
+  color: #4C243B;
+
+}
+
+
+.navLinks a:hover {
+  color: #f1f1f1;
+}
+
+.navLinks .closeBtn {
+  position: absolute;
+  top: 5.1%;
+  right: 35em;
+  font-size: 36px;
+  margin-left: 50px;
+  background-color: #F5A6E6;
+  color: #4C243B;
+
+
+}
+.closeBtn:hover{
+  color: #f1f1f1;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+.hamburgerIcon{
+font-size: 25px;
+position: relative;
+left: 1.5%;
+color: #4C243B;
+
+}
+
+@media screen and (max-height: 450px) {
+  .navBar {padding-top: 15px;}
+  .navBar a {font-size: 18px;}
+}
+
+
+
+
+
+
+
