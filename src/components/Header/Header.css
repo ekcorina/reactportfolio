@@ -1,7 +1,15 @@
+
+  *{
+    /* box-sizing: border-box; */
+    background-color: #E7DADD;
+    
+    }
+
+
 .flipCard {
-    /* background-color: transparent; */
-    width: 200px;
+    width: 130px;
     height: 200px;
+    margin-left: 15px;
     position: relative;
     left: 45%;
     top: 30vh;
@@ -31,10 +39,9 @@ transform-style: preserve-3d;
   
 
   .cardFront, .cardBack {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;

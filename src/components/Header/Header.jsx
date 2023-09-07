@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import front1 from "../Images/front1.png"
 import back2 from "../Images/back2.png"
+import Navbar from "../Navbar/Navbar";
+import AboutMe from "../AboutMe/AboutMe";
 import "./Header.css"
 
 function Header() {
@@ -27,6 +29,8 @@ onClick={flipCard}
   </div>
 </div>
 
+<Navbar />
+<AboutMe />
 
 
 </>
