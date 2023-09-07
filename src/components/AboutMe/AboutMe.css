@@ -1,0 +1,34 @@
+.contentContainer{
+    /* display: flex;
+    flex-direction: column; */
+  position: relative;
+  bottom: 440px;
+    left: 350px;
+}
+
+#portImage{
+  width: 250px;
+  margin-left: 387px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  border-radius: 150px;
+  border: 1px solid #4C243B; 
+}
+#aboutMe{
+    text-align: center;
+    margin-right: 550px;
+    margin-bottom: 5px;
+    color: #4C243B;
+    font-size: 52pt;
+}
+
+#aboutMeContent{
+
+margin-right: 450px;
+/* margin-left: 570px; */
+
+text-indent: 45px;
+text-align: justify;
+
+
+}

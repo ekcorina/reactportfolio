@@ -6,11 +6,11 @@ const Navbar = () => {
     <>
 
 
-    <nav className="navbar">
+    <nav className="navBar">
       <span className="hamburgerIcon">&#9776;</span>
     <div className="navLinks">
     <span className="closeBtn">&times;</span>
-    <a id="aboutMe" href="#">About Me</a>
+    <a id="aboutMeLink" href="#">About Me</a>
     <a id="projects" href="#">Projects</a>
     <a id="techSkills" href="#">Technical Skills</a>
     <a id="tools" href="#">Tools</a>
@@ -18,9 +18,9 @@ const Navbar = () => {
   </div>
   </nav>
 
-<div id="main">
+{/* <div id="main">
   
-</div>
+</div> */}
 </>
   );
 };
