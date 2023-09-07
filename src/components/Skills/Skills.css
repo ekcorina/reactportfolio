@@ -1,0 +1,24 @@
+
+#skills{
+    position: relative;
+    left: 750px;
+    bottom: 425px;
+    font-size: 64px;
+    color: #4C243B;
+    font-weight: 700;
+}
+
+
+#tech{
+    width: 1080px;
+    transition: width 2s, height 2s, transform 2s;
+    position: relative;
+    left: 310px;
+    bottom: 200px;
+ 
+}
+
+#tech:hover{
+
+    transform: rotate(180deg);
+}

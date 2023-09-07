@@ -3,6 +3,7 @@ import front1 from "../Images/front1.png"
 import back2 from "../Images/back2.png"
 import Navbar from "../Navbar/Navbar";
 import AboutMe from "../AboutMe/AboutMe";
+import Skills from "../Skills/Skills";
 import "./Header.css"
 
 function Header() {
@@ -21,16 +22,17 @@ onClick={flipCard}
 >
   <div className="cardInner">
     <div className="cardFront">
-      <img src={front1} alt="front-businessCard"/>
+      <img className ="businessCard-front-back" src={front1} alt="front-businessCard"/>
     </div>
     <div className="cardBack">
-        <img src={back2} alt="back-businessCard" />
+        <img className ="businessCard-front-back" src={back2} alt="back-businessCard" />
     </div>
   </div>
 </div>
 
 <Navbar />
 <AboutMe />
+<Skills />
 
 
 </>

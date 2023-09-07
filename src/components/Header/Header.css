@@ -15,7 +15,7 @@
     top: 30vh;
     perspective: 1000px; 
   }
-  img{
+  .businessCard-front-back{
     position: relative;
     top: 48px;
     right: 15px;
