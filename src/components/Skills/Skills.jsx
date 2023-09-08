@@ -1,5 +1,5 @@
 import React from "react"
-import tech from "../Images/tech.png"
+import techSkills from "../Images/techSkills.png"
 import "./Skills.css"
 
 
@@ -10,7 +10,7 @@ return(
 
 <>
 <p id="skills">Skills</p>
-<img id="tech" src={tech} alt="technologies" />
+<img id="tech" src={techSkills} alt="technologies" />
 
 </>
 
