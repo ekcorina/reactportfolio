@@ -4,6 +4,7 @@ import back2 from "../Images/back2.png"
 import Navbar from "../Navbar/Navbar";
 import AboutMe from "../AboutMe/AboutMe";
 import Skills from "../Skills/Skills";
+import Projects from "../Projects/Projects";
 import "./Header.css"
 
 function Header() {
@@ -33,6 +34,8 @@ onClick={flipCard}
 <Navbar />
 <AboutMe />
 <Skills />
+<Projects />
+
 
 
 </>
