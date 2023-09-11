@@ -1,14 +1,11 @@
-
-
-
 .navBar {
-  /* height: 100%;  */
+  
   width: 100%;
-  position: relative; 
-  /* z-index: 1;  */
-  top: 520px; 
-  left: 15px;
-  /* overflow-x: hidden;  */
+  position: absolute; 
+
+  /* top: 520px; 
+  left: 15px; */
+ 
   padding-top: 60px; 
   transition: 0.5s; 
 }
@@ -33,17 +30,7 @@
   color: #f1f1f1;
 }
 
-/* .navLinks {
-  position: absolute;
-  top: 7%;
-  right: 35em;
-  font-size: 36px;
-  margin-left: 50px;
-  background-color: #F5A6E6;
-  color: #4C243B;
 
-
-} */
 
 .closeBtn{
   font-size: 36px;
@@ -58,11 +45,7 @@
 .closeBtn:hover{
   color: #f1f1f1;
 }
-/* 
-#main {
-  transition: margin-left .5s;
-  padding: 20px;
-} */
+
 
 .hamburgerIcon{
 font-size: 35px;

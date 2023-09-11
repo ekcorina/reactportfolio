@@ -1,22 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Navbar.css'; 
 
 const Navbar = () => {
+
+  const [navOpen, setNavOpen] = useState(false)
+
+
+  const handleCancel = () => {
+    setNavOpen(false);
+  }
+
+
+
+
   return (
     <>
 
+<span onClick={()=>setNavOpen(true)}className="hamburgerIcon">&#9776;</span>
 
-    <nav className="navBar">
-      <span className="hamburgerIcon">&#9776;</span>
-    <div className="navLinks">
-    <span className="closeBtn">&times;</span>
-    <a id="aboutMeLink" href="#">About Me</a>
-    <a id="projects" href="#">Projects</a>
-    <a id="techSkills" href="#">Technical Skills</a>
-    <a id="toolss" href="#">Tools</a>
-    <a id="contactMe" href="#">Contact Me</a>
+
+
+{navOpen && <nav className="navBar" >
+
+      
+
+   
+ <div className="navLinks">
+    <span onClick={handleCancel} className="closeBtn">&times;</span>
+
+    <a  href="/">About Me</a>
+    <a  href="#project">Projects</a>
+    <a  href="#techSkills">Technical Skills</a>
+    <a  href="#toolss">Tools</a>
+    <a  href="#contactMe">Contact Me</a>
+    
   </div>
-  </nav>
+  </nav>}
 
 {/* <div id="main">
   
@@ -24,5 +43,6 @@ const Navbar = () => {
 </>
   );
 };
+
 
 export default Navbar;

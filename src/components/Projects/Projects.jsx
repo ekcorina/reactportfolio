@@ -11,7 +11,7 @@ const Projects = () =>{
 return(
 <>
 
-  <h2 className="projects">Projects</h2>
+  <h2 id= "project" className="projects">Projects</h2>
 
  <div class="scrollContainer">
   <img className = "projectImages resizeImages" src={tribute} alt="tribute-page" />
