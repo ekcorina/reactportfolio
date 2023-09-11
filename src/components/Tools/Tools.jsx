@@ -9,7 +9,7 @@ const Tools = () => {
     return(
         <>
 
-        <p id="tools">Tools</p> 
+        <p id="toolss" className="tools">Tools</p> 
         
              <img id="toolSet" src={tools} alt="tools" />
         

@@ -9,7 +9,7 @@ return(
 
 
 <>
-<p id="skills">Skills</p>
+<p id="techSkills">Skills</p>
 <img id="tech" src={techSkills} alt="technologies" />
 
 </>

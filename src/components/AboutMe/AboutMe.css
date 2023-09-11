@@ -1,6 +1,5 @@
 .contentContainer{
-    /* display: flex;
-    flex-direction: column; */
+
   position: relative;
   bottom: 440px;
     left: 350px;
@@ -14,7 +13,7 @@
   border-radius: 150px;
   border: 1px solid #4C243B; 
 }
-#aboutMe{
+#about-Me{
     text-align: center;
     margin-right: 550px;
     margin-bottom: 5px;

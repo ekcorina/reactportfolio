@@ -10,6 +10,7 @@ import ContactForm from "../ContactForm/ContactForm";
 import "./Header.css"
 
 function Header() {
+
     const [isFlipped, setIsFlipped] = useState(false);
 
 const flipCard= () =>{
@@ -19,10 +20,7 @@ const flipCard= () =>{
 
 <>
 
-<div className=
-{`flipCard ${isFlipped ? 'flipped' : ''}`} 
-onClick={flipCard}
->
+{/* <div className={`flipCard ${isFlipped ? 'flipped' : ''}`} onClick={flipCard}>
   <div className="cardInner">
     <div className="cardFront">
       <img className ="businessCard-front-back" src={front1} alt="front-businessCard"/>
@@ -31,7 +29,7 @@ onClick={flipCard}
         <img className ="businessCard-front-back" src={back2} alt="back-businessCard" />
     </div>
   </div>
-</div>
+</div> */}
 
 <Navbar />
 <AboutMe />

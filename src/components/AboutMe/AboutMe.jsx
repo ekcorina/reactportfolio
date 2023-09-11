@@ -8,7 +8,7 @@ const AboutMe = () =>{
 return(
     <>
         <div className="contentContainer">
-        <h1 id="aboutMe">About Me</h1>
+        <h1 id="aboutMeLink">About Me</h1>
 
             <img id="portImage" src={portfolioImage} alt="portfolioImage" />
 
