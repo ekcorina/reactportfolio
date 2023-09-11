@@ -5,6 +5,7 @@ import Navbar from "../Navbar/Navbar";
 import AboutMe from "../AboutMe/AboutMe";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
+import Tools from "../Tools/Tools";
 import "./Header.css"
 
 function Header() {
@@ -35,6 +36,7 @@ onClick={flipCard}
 <AboutMe />
 <Skills />
 <Projects />
+<Tools />
 
 
 

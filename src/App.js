@@ -15,10 +15,6 @@ function App() {
     <>
  <Header />
    
-{/* <Navbar />
-
-
-  <AboutMe /> */}
 
   </>
   );
