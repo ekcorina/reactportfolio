@@ -6,6 +6,7 @@ import AboutMe from "../AboutMe/AboutMe";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
 import Tools from "../Tools/Tools";
+import ContactForm from "../ContactForm/ContactForm";
 import "./Header.css"
 
 function Header() {
@@ -37,6 +38,7 @@ onClick={flipCard}
 <Skills />
 <Projects />
 <Tools />
+<ContactForm />
 
 
 
