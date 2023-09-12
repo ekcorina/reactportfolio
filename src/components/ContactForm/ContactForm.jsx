@@ -1,7 +1,22 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import "./ContactForm.css"
 
 const ContactForm = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ygv3rcs', 'template_kqubvhn', form.current, '76zaOrUHkwreDMB5D')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -26,15 +41,15 @@ const ContactForm = () => {
   return (
     <div className="contact-form">
       <h2 id="contactMe">Contact Me</h2>
-      <form onSubmit={handleSubmit}>
+      <form ref={form} onSubmit={sendEmail}>
         <div className="form-group">
           <label htmlFor="name">Name:</label>
           <input
             type="text"
             id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
+            name="user_name"
+            // value={formData.name}
+            // onChange={handleChange}
             required
           />
         </div>
@@ -43,9 +58,9 @@ const ContactForm = () => {
           <input
             type="email"
             id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
+            name="user_email"
+            // value={formData.email}
+            // onChange={handleChange}
             required
           />
           </div>
@@ -70,7 +85,7 @@ const ContactForm = () => {
             required
           />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" value="Send">Submit</button>
       </form>
     </div>
   );
