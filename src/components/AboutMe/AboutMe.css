@@ -1,33 +1,33 @@
 .contentContainer{
 
   position: relative;
-  bottom: 440px;
-    left: 350px;
+  top:570px;
+    left: 520px;
 }
 
 #portImage{
   width: 250px;
-  margin-left: 387px;
+  margin-left: 360px;
   margin-top: 30px;
   margin-bottom: 80px;
   border-radius: 150px;
   border: 1px solid #4C243B; 
 }
-#about-Me{
+#aboutMeLink{
     text-align: center;
-    margin-right: 550px;
-    margin-bottom: 5px;
+    margin-right: 580px;
     color: #4C243B;
     font-size: 52pt;
 }
 
 #aboutMeContent{
 
-margin-right: 450px;
-/* margin-left: 570px; */
+margin-right: 600px;
+padding-left: -180px;
+
 
 text-indent: 45px;
-text-align: justify;
+text-align: center;
 
 
 }

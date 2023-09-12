@@ -37,9 +37,9 @@ const Navbar = () => {
   </div>
   </nav>}
 
-{/* <div id="main">
+<div className="main">
   
-</div> */}
+</div>
 </>
   );
 };
