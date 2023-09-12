@@ -11,13 +11,15 @@ const Projects = () =>{
 return(
 <>
 
-  <h2 id= "project" className="projects">Projects</h2>
+  
 
  <div class="scrollContainer">
-  <img className = "projectImages resizeImages" src={tribute} alt="tribute-page" />
-  <img className = "projectImages" src={group2} alt="group-project" />
-  <img className = "projectImages resizeImages" src={theatre} alt="theatre-page" />
+ <h2 id= "project" className="projects">Projects</h2>
   <img className = "projectImages" src={reborn} alt="reborn-page" />
+    <img className = "projectImages" src={group2} alt="group-project" />
+  <img className = "projectImages resizeImages" src={theatre} alt="theatre-page" />
+  <img className = "projectImages resizeImages" src={tribute} alt="tribute-page" />
+  
 </div> 
 
 

@@ -20,7 +20,7 @@ const flipCard= () =>{
 
 <>
 
-{/* <div className={`flipCard ${isFlipped ? 'flipped' : ''}`} onClick={flipCard}>
+<div className={`flipCard ${isFlipped ? 'flipped' : ''}`} onClick={flipCard}>
   <div className="cardInner">
     <div className="cardFront">
       <img className ="businessCard-front-back" src={front1} alt="front-businessCard"/>
@@ -29,7 +29,7 @@ const flipCard= () =>{
         <img className ="businessCard-front-back" src={back2} alt="back-businessCard" />
     </div>
   </div>
-</div> */}
+</div>
 
 <Navbar />
 <AboutMe />

@@ -1,11 +1,13 @@
 
-#skills{
+#techSkills{
     position: relative;
-    left: 750px;
-    bottom: 425px;
+    /* left: 900px;
+    bottom: 605px; */
+    top: 600px;
     font-size: 64px;
     color: #4C243B;
     font-weight: 700;
+    text-align: center;
 }
 
 
@@ -13,8 +15,9 @@
     width: 1080px;
     transition: width 2s, height 2s, transform 2s;
     position: relative;
-    left: 310px;
-    bottom: 200px;
+    left: 270px;
+    /* bottom: 150px; */
+    top: 880px;
  
 }
 
